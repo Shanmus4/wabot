@@ -1,0 +1,22 @@
+whatsapp-reminder-bot/
+├── .env
+├── .gitignore
+├── README.md
+├── requirements.txt
+├── src/
+│   ├── __init__.py
+│   ├── bot/
+│   │   ├── __init__.py
+│   │   ├── whatsapp_handler.py
+│   │   └── message_processor.py
+│   ├── services/
+│   │   ├── __init__.py
+│   │   ├── audio_service.py
+│   │   ├── nlp_service.py
+│   │   └── reminder_service.py
+│   └── utils/
+│       ├── __init__.py
+│       └── config.py
+└── tests/
+    ├── __init__.py
+    └── test_bot.py 
